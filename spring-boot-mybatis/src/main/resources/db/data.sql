@@ -1,0 +1,1 @@
+replace into tb_user (user_id,user_name,user_age) values (100,'test01',100);

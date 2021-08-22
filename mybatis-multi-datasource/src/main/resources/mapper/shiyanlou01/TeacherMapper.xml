@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanqiao.mybatismultidatasource.dao.shiyanlou01.TeacherMapper">
+    <!--查询所有教师信息-->
+    <select id="findAll" resultType="com.lanqiao.mybatismultidatasource.entity.Teacher">
+        select * from teacher
+    </select>
+</mapper>

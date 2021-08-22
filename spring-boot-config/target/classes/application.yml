@@ -1,0 +1,28 @@
+# 默认配置
+spring:
+  profiles:
+    active: test
+---
+# 开发环境
+course:
+  id: 1
+  name: application-dev.yml
+user:
+  id: 2
+  userName: application-dev.yml
+  level: 2
+  totalTime: ${random.int(1000)}
+spring:
+  profiles: dev
+---
+# 测试环境
+course:
+  id: 1
+  name: application-test.yml
+user:
+  id: 2
+  userName: application-test.yml
+  level: 2
+  totalTime: ${random.int(1000)}
+spring:
+  profiles: test
